@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adme11.ctrln.adme11.SignupFragment"
+    android:background="@drawable/b1back">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Sign Up"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:layout_width="181dp"
+            android:hint="Username"
+            android:textColorHint="#dcdcdc"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:layout_width="181dp"
+            android:hint="Password"
+            android:textColorHint="#dcdcdc"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:layout_width="181dp"
+            android:hint="Company name"
+            android:textColorHint="#dcdcdc"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button3"
+            android:background="#33b5e5"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+</FrameLayout>
